@@ -1,20 +1,20 @@
 /* body */
 body {
   background-color: #F7F7F7;
-  font-family: 'Noto Sans KR', sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://resizeimage.net/mypic/G5QWFkPyU48Gqber/66ASx/glen-hooper-tohhui7cot8-unspla.jpg);
+  font-family: 'Noto Sans KR', algerian;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://resizeimage.net/mypic/G5QWFkPyU48Gqber/66ASx/glen-hooper-tohhui7cot8-unspla.jpg);
 }
 
 /* nav */
 *{
   margin: 0;
   padding: 3px;
-  font-family: sans-serif;
+  font-family: algerian;
 }
 nav{
   width: 100%;
-  height: 50px;
-  line-height: 50px;
+  height: 60px;
+  line-height: 60px;
   background-color: transparent;
 }
 nav ul{
@@ -39,15 +39,15 @@ nav ul li{
   transition: 0.7s all;
 }
 nav ul li:hover{
-  background-color: #D0D6B3;
+  background-color: #D0D983;
 }
 nav ul li a{
   text-decoration: none;
-  color: #143109;
+  color: #143659;
   padding: 30px;
 }
 nav li a:visited {
-  color:#AAAE7F;
+  color:#A78945;
 }
 /* logo */
 .navi {
@@ -106,7 +106,7 @@ aside{
   height: 82%;
   padding: 0px 1px;
   box-shadow: 10px 10px lightskyblue;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px #f00000;
   text-align: center;
   position: relative;
   float: right;
@@ -167,6 +167,6 @@ footer{
 .fa-instagram {
   color: #fff;
   background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #f89497 0%, #f23497 5%, #fd5949 45%,#65249f 60%,#298AEB 90%);
   /* box-shadow: 0px 3px 10px rgba(0,0,0,.25); */
   }
