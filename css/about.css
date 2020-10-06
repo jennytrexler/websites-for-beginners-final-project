@@ -1,8 +1,294 @@
-.ytvideo{
+html{
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background: #FCF6EE;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* nav */
+*{
+    margin: 0;
+    padding: 3px;
+    font-family: 'Rubik', sans-serif;
+  }
+  nav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: transparent;
+  }
+  nav ul{
+    margin-right: 25px;
+  }
+  
+  /* float right nav bar logos */
+  .contact{
+    float: right;
+  }
+  .about{
+    float: right;
+  }
+  .home{
+    float: right;
+  }
+  
+  /* nav
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+  }
+  nav ul li:hover{
+    background-color: #9097C0;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #381D2A;
+    padding: 30px;
+  }
+  nav li a:visited {
+    color:#381D2A;
+  } */
+
+  /* nav */
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+  }
+  nav ul li:hover{
+    background-color: #424A76;
+    opacity: 0.5;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #9097C0;
+    padding: 30px;
+  }
+  nav li a:visited {
+    color:#9097C0;
+  }
+
+  /* logo */
+  .navi {
+    background-color: transparent;
+    height: 3px;
+    margin-top: -10px;
+    margin-left: -17px;
+    padding: 3px;
+    text-align: center;
+    float: left;
+  }
+  .logo img {
+    float: left;
+    height: 69.12px;
+    width: 103.68px;
+  }
+  
+  
+  /* what is this?????
+  body, html {
+    height: 100%;
+  } */
+
+
+/* hero image */
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image:  url("https://images.unsplash.com/photo-1575485670541-824ff288aaf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80");
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
+
+
+  /* Set a specific height */
+  height: 800px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 25px;
+  margin-left: -10px;
+  width: 1440px;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 35px;
+}
+  
+/* the first one */
+section{
+    background-color: #F49F0A;
+    width: 1100px;
+    height: 600px;
+    /* padding: 70px; */
+    /* text-shadow: 2px 2px #ff0000; */
+    /* text-align: center; */
+    position: relative;
+    float: center;
+    /* margin-top: 65px; */
+    /* margin-left: 80px; */
+    color: #FCF6EE;
+    padding-top: 60px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    line-height: 1.6;
+    margin-left: 200px;
+    margin-top: 650px;
+    margin-right: 50px;
+}
+
+/* the one with a youtube video */
+section2{
+    width: 600;
+    height: 300px;
+    position: relative;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 25px;
+    background-color: transparent;
+    align-content: center;
     text-align: center;
 }
-aside{
-    width: 100%;
-    height: 50%;
-    background-color: chocolate;
+
+/* the one next to a youtube video */
+section3{
+    width: 680px;
+    height: 400px;
+    position: relative;
+    float: right;
+    margin-top: 60px;
+    margin-bottom: 200px;
+    margin-left: 25px;
+    margin-right: 60px;
+    background-color: transparent;
+    line-height: 1.6;
+    padding-left: 20px;
+    color: #626DA7;
 }
+
+/* hero image #2 */
+
+
+
+
+/* the one that used to be green */
+aside{
+    background-color: #CEA1B7;
+    width: 1100px;
+    height: 425px;
+    /* padding: 70px; */
+    /* text-shadow: 2px 2px #ff0000; */
+    /* text-align: center; */
+    position: relative;
+    float: center;
+    /* margin-top: 65px; */
+    /* margin-left: 80px; */
+    color: #FCF6EE;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    margin-top: 540px;
+    line-height: 1.6;
+    margin-bottom: 70px;
+}
+
+
+.paddings{
+    padding-top: 60px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    line-height: 1.6;
+    margin-left: 60px;
+}
+
+.title{
+    /* font-size: 60px; */
+    font-size: 20px;
+    line-height: 100px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.text{
+    /* font-size: 15px; */
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.ytvideo{
+    text-align: right;
+    float: right;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    background-color: #381D2A;
+    width: 100%;
+    height: 56px;
+    padding: 0px 1px;
+    text-align: center;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  /* social media links */
+  
+  /* Style all font awesome icons */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa {
+    /* opacity: 0.7; */
+    color: white;
+    background: #381D2A;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook:hover {
+    color: #3B5998;
+  }
+  
+  /* Twitter */
+  .fa-twitter:hover {
+    color: #55ACEE;
+  }
+  
+  /* instagram */
+  .fa-instagram:hover {
+    color: #d6249f;
+    color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    /* box-shadow: 0px 3px 10px rgba(0,0,0,.25); */
+    }
